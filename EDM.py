@@ -7,8 +7,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, classification_report
 
 # Read the data from the Excel file
-file_name = "EDM.xlsx"
-sheet_name = "data_hierarchical"
+file_name = "/Users/liujiahua/Library/CloudStorage/OneDrive-Personal/文档/edm_cluster1.xlsx"
+sheet_name = "Sheet1"
 df = pd.read_excel(file_name, sheet_name=sheet_name)
 
 # Encode categorical features
